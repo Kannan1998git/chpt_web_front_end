@@ -1,0 +1,27 @@
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  cursor: pointer;
+  margin: 0 5px;
+  border: 2px solid transparent;
+}
+
+.thumbnail img {
+  width: 50px;
+  height: 50px;
+}
+
+.thumbnail.active {
+  border-color: blue;
+}
+
+  
